@@ -553,3 +553,15 @@ transform:scale(1.05);
     color:#4ade80;
     text-decoration:none;
 }
+.buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:18px;
+    margin-top:30px;
+}
+
+.buttons a{
+    width:260px;
+    text-align:center;
+}
