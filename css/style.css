@@ -553,3 +553,23 @@ transform:scale(1.05);
     color:#4ade80;
     text-decoration:none;
 }
+#contact {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.contact-info a {
+    color: #22c55e;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact-info a:hover {
+    color: #16a34a;
+    text-decoration: underline;
+}
