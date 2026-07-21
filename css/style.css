@@ -588,3 +588,40 @@ border-radius:20px;
 ::-webkit-scrollbar-thumb:hover{
 background:#16a34a;
 }
+
+.documentation-box{
+    background: linear-gradient(135deg,#22c55e,#16a34a);
+    padding: 80px 35px 35px;   /* top right/left bottom */
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.documentation-box h2{
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.documentation-box p{
+    max-width:750px;
+    margin:0 auto 25px;
+    line-height:1.8;
+    font-size:17px;
+}
+
+.doc-btn{
+    display:inline-block;
+    background:white;
+    color:#16a34a;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:10px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.doc-btn:hover{
+    transform:translateY(-3px);
+    background:#f8fafc;
+}
